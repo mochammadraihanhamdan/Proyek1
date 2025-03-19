@@ -9,9 +9,9 @@
   $contact->ajax = true;
   
   $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+  $contact->from_name = $_POST['reyy'];
+  $contact->from_email = $_POST['malfaruq67@gmail.com'];
+  $contact->subject = $_POST['-'];
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
